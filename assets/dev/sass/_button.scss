@@ -1,0 +1,64 @@
+/*-------------------------------------------------
+buttons
+-------------------------------------------------*/
+
+.btn {
+  padding: 10px 30px;
+  border-radius: 3px;
+}
+
+.btn-warning {
+  background: $primary-color;
+  border-color: $primary-color;
+  color: $black;
+}
+
+.btn-dark {
+  background: $black-light;
+  border-color: $black-light;
+  color: $white;
+  &:hover, &:focus{
+    background: $secondary-color;
+    border-color: $secondary-color;
+    outline: none;
+    color: $black;
+  }
+}
+
+.btn-white {
+  background: $white;
+  border-color: $white;
+  color: $black;
+  &:hover, &:focus{
+    background: transparent;
+    border-color: $white;
+    outline: none;
+    color: $white;
+  }
+}
+
+.btn-primary, button.btn-primary {
+  background: $primary-color;
+  border-color: $primary-color;
+  &:hover, &:focus{
+    background: $secondary-color !important; 
+    border-color: $secondary-color !important;
+    color: $black;
+  }
+}
+
+.btn-primary:disabled, .btn-primary.disabled {
+  color: $white;
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+
+.button-row {
+  a {
+    margin: 0 10px;
+  }
+}
+
+.btn.disabled{
+  opacity: 1;
+}
