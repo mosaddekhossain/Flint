@@ -29,3 +29,4 @@ It’s a perfect template for startup, web agencies, digital studios, corporate,
 
 # License
 <a href="https://github.com/mosaddekhossain/flint/blob/main/LICENSE">MIT</a>
+
